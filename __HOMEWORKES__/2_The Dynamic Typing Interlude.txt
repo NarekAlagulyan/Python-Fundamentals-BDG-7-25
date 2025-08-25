@@ -1,0 +1,32 @@
+1: Consider the following three statements. Do they change the value printed for A?
+A = "spam"
+B = A
+B = "shrubbery"
+
+2: Consider these three statements. Do they change the printed value of A?
+A = ["spam"]
+B = A
+B[0] = "shrubbery"
+
+3: How about these—is A changed now?
+A = ["spam"]
+B = A[:]
+B[0] = "shrubbery"
+
+4: Explain in details the difference between is and ==
+
+5: What does id function do and what does it return.
+
+6: What is Object Interning
+
+7: What is Garbage Collector(GC) and how does it work(simple explanation) in CPython
+
+8: Aliasing with mutable and immutable types
+Show examples of what happens when two variables point to the same list, dictionary, string, integer, etc., and one of them changes.
+Why does the change sometimes affect both variables, and sometimes not?
+
+9: Draw a memory diagram
+For each scenario(homework scenarios and your own random scenarios), draw boxes showing
+Objects in memory
+Variable names pointing to them
+How these connections change after each statement 

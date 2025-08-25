@@ -1,0 +1,10 @@
+1: What is the value of the expression 2 * (3 + 4) in Python?
+2: What is the value of the expression 2 * 3 + 4 in Python?
+3: What is the value of the expression 2 + 3 * 4 in Python?
+4: What tools can you use to find a number’s square root, as well as its square?
+5: What is the type of the result of the expression 1 + 2.0 + 3?
+6: How can you truncate and round a floating-point number?
+7: How can you convert an integer to a floating-point number?
+8: Investigate "IEEE 754" and its issue. (Simply ask GPT). 
+9: Decimal, Fraction
+10: During the last class we talked about +, -, *, **, /, //, % operators. We did not cover other important operators, please find them and play with them. 

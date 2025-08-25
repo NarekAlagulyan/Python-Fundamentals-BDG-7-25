@@ -1,0 +1,11 @@
+1. What is the Python interpreter?
+2. What is source code?
+3. What is byte code?
+4. What is the PVM?
+5. Name two or more variations on Python's standard execution model.
+6. How are Python, Jython, and IronPython different? Why prefer one over another
+7. What are Stackless and PyPy? Why prefer one over another
+8. Draw Interpreter's working process.
+9. How do you run/start a python program?
+10. What is interactive prompt and how do you use it. (Hint: always use it. Play with it as much as possible)
+11. Investigate and explain the usage of hash bang/shebang/bash bang
