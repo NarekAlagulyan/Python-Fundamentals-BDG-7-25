@@ -1,0 +1,193 @@
+# answer 1
+list1= []
+print (list1)
+print(list())
+
+# answer 2
+d=[1,2,3]
+d.append(4)
+print(d)
+
+# answer 3
+('''append is when you add  for example number to the list
+,extend is when you stick something on the list''')
+
+# answer 4
+d=[1,2,3]
+del d [1]
+print(d)
+d.pop(0)
+print(d)# answer 5
+colors=['red','green','blue']
+colors.sort()
+print(colors)
+
+# answer 6
+dict1= {}
+dict3= dict()
+print(dict1)
+print(dict3)
+
+# answer 7
+person={'name':'John','age':18}
+print(person)
+print(person['name'])
+print(person['age'])
+person['city']='mexico'
+print(person)
+#answer 8
+
+
+
+# part 2
+# answer 1
+L=[1,2,3]+[4,5,6]
+print(L)
+
+# answer 2
+L = ['a', 'b', 'c']
+L.pop (1)
+print(L)
+'it removes the index letter but also can return'
+
+# answer 3
+True
+
+# answer 4
+
+d={'name' : 'sarah','age':18}
+print(d.keys())
+
+# answer 5
+d={'name' : 'sarah','age':18}
+print(d.get('missing key','default value'))
+
+# answer 6
+age={ 'sarah': [21]}
+'yes ,you can'
+print(age)
+
+# answer 7
+sarah= [99999999999999999999,3,16]
+print(sarah)
+
+# answer 8
+list =[1,2,3,4,5]
+print(list)
+
+# answer 9
+d={'name' : 'sarah','age':18}
+
+if 'city' in d:
+    print(True)
+
+# answer 10
+
+"yes list can contain numbers, strings,your shoes , your lost socks, and even the dead mouse under your bed "
+
+# answer 11
+
+d={'a' : 2,'b':18,'c':3}
+#values_list=list(d.values())
+#print(values_list)
+
+# answer 12
+0
+
+
+# part 3
+
+# exercise 1
+shopping_list=["apple","milk","strawberry","banana","nutella"]
+print(shopping_list)
+print(shopping_list[0])
+print(shopping_list[-1])
+shopping_list[2]="blueberry"
+print(shopping_list)
+shopping_list.append('peanut')
+print(shopping_list)
+del shopping_list[1]
+print(shopping_list)
+print(shopping_list)
+
+
+# exercise 2
+
+person1 = {'name': 'sarah','number' : '+44 20 7123 4567','email':'sarahjupiter0@gmail.com'}
+print(person1['name'])
+print(person1['email'])
+
+# exercise 3
+age= [8,5,3,2,9]
+
+me = {"name": "sarah", "age": 18, "city": "london"}
+swapped = {value: key for key, value in me.items()}
+print(swapped)
+
+# execise 5
+white_house_party_guest_list = {'guest1': 'mary', 'guest2': 'john', 'guest3': 'sasha', 'guest4': 'andrey'}
+print(len(white_house_party_guest_list))
+
+# execise 6
+friends = {'luiza': 'red', 'josh': 'beige', 'anita': 'purple'}
+print(friends['luiza'])
+
+# execise 7
+todolist = ['clean bedroom', 'go to college', 'eat lunch', 'drink water']
+todolist.pop(2)
+print(todolist)
+print(todolist[-1])
+age.sort()
+print(age)
+
+# part 4
+# 1
+# unique_listname = list(set(list_name)
+#print(unique_listname)
+
+# 2
+movies1 = [
+    {'title':'Cars','director':'John Lasseter','year': 2006 },
+    {'title':'Taxi','director':'Tim Story','year': 2004 },
+    {'title':'chosen','director':'Dallas jenkins','year':2019}
+
+
+
+]
+
+for movies in movies1:
+    print('title',movies['title'])
+    print('director',movies['director'])
+
+
+#tuple and files
+
+#1 answer
+"""list is mutable and tuple is immutable"""
+
+#2 answer
+a=(1)
+print(a)
+
+#3 answer
+"tuple is immutable you cant change it directly but for example"
+T = (1,2,[1,5],9)
+T[2][1]=88
+print(T)
+
+#4 answer
+open()
+'''it's for files it open's file reading,writing,etc.'''
+
+#5 answer
+'''the differences between reading and readlines is that when we print read it just prints the text but if we print readlines it prints the text inside list '''
+
+#6 answer
+'''to open a file you go and creat a file in python with name for example<file.txt> and you just write whatever you want '''
+
+# 7 answer
+'''so if were not gonna close the file the program will end and the file will be empty ,python usually put the informaiton in the buffer so we need to close the file 
+to flush to realese the program otherwise itll be an issue '''
+
+#8 answer
+'''so basically when we use it with (with statment )it automatically closes our file so if we forget to close our file it still automatically closes the file '''
